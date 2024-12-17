@@ -3,7 +3,9 @@ html {
 }
 
 body {
-  background: #2c2c2c;
+  /* background: #2c2c2c; */
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,230,148,1) 100%);
 }
 
 h2 {
@@ -18,7 +20,7 @@ progress {
   width: 80%;
   height: 2rem;
   color: #ff0062;
-  border: 1px solid #a927f5;
+  /* border: 1px solid #a927f5; */
 }
 
 progress[value]::-webkit-progress-bar,
@@ -28,19 +30,23 @@ progress[value] {
 }
 
 progress[value]::-webkit-progress-value {
-  background-color: #a927f5;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   transition: all 0.2s ease-out;
 }
 
 progress[value]::-moz-progress-bar {
-  background-color: #a927f5;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   transition: all 0.2s ease-out;
 }
 
 button {
   font: inherit;
-  background: #ff0062;
-  border: 1px solid #ff0062;
+  /* background: #ff0062; */
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  border: none;
   color: white;
   padding: 1rem 2rem;
   border-radius: 6px;
@@ -54,8 +60,9 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #a927f5;
-  border-color: #a927f5;
+  background: #cc8fea70;
+  color: #2c2c2c;
+  /* border-color: #a927f5; */
 }
 
 #health-levels,
