@@ -10,13 +10,10 @@ let max = 100;
 let bonusLife = true;
 
 // take user input value...
-let enteredValue = prompt("you value", 100);
+let enteredValue = prompt("enter initial value of monster health!", 100);
 setPlayerHealth(enteredValue);
 
-
-
-
-function test(player,monster) {
+function test(player, monster) {
   if (player <= 0 && bonusLife === true) {
     bonusLife = false;
     removeBonusLife();
